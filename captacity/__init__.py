@@ -200,6 +200,7 @@ def add_captions(
             stroke_width,
             text_bbox_width,
         ),
+        allow_partial_sentences=True,
     )
 
     for caption in captions:
